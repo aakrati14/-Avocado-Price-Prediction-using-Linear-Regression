@@ -1,0 +1,40 @@
+- This was a machine learning project where I analyzed historical avocado price data, identified seasonal trends, and used linear regression to predict future prices.
+
+STAR Explanation:
+
+--> S (Situation)
+I found a dataset on Kaggle containing historical prices of avocados sold in the US from 2015 to 2018. I wanted to explore trends and build a simple ML model for price forecasting.
+
+--> T (Task)
+My goal was to analyze the data to find insights and apply a machine learning algorithm to predict future avocado prices based on date.
+
+--> A (Action)
+#Data Cleaning: Loaded the CSV using pandas and cleaned null values if any.
+#EDA (Exploratory Data Analysis):
+-Visualized average price over time
+-Grouped data by month and year to find trends
+#Feature Engineering:
+-Converted date into numeric values for modeling
+-Used only US data for consistent analysis
+#ML Modeling:
+-Used Linear Regression to predict price based on date
+-Split data into train-test sets
+-Evaluated using R² Score
+#Visualization:
+-Plotted actual vs predicted prices
+-Created monthly average bar charts for seasonal analysis
+
+--> R (Result)
+- Found a seasonal trend: prices peaked around September–October and dropped around February
+- My model could capture the general trend in prices, though not perfect
+- It helped me understand the basics of time series and regression
+
+### I used Python, Pandas, Matplotlib, and scikit-learn for this project. It helped me get hands-on experience in data preprocessing, visualization, and applying a basic machine learning model.
+
+-----------------------------
+
+If I continue this project, I’d try using more advanced models like ARIMA or LSTM for better forecasting, and incorporate external factors like weather or production data to improve accuracy.
+
+-----------------------------
+
+It was a simple but complete end-to-end ML project — from data cleaning and EDA to modeling and insights — focused on predicting avocado prices.
