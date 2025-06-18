@@ -8,11 +8,7 @@ This project analyzes historical avocado price data in the US to uncover trends 
 4.Plot and compare actual vs predicted prices
 
 📊 Insights from Data
--Seasonality: Prices tend to spike during specific months every year (possibly around festivals or low-supply seasons)
-
--Downward Trend: Overall average price decreased over the years
-
--Demand-Supply Impact: Price spikes may indicate limited supply or high demand periods
+- The average price of avocados shows clear seasonal variation. Prices are lowest in February and highest in September and October, suggesting that supply-demand fluctuations significantly affect pricing across the year.
 
 💻 Tech Stack
 -Python
